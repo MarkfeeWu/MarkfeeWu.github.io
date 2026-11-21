@@ -58,13 +58,19 @@ title: Home
       STEAD: Subversion-Resistant Portable Encrypted Data Deduplication with File Sharing.
       In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, 2026.
       <!-- Tags are generated here automatically. -->
-      <div class="paper-tags" role="group" aria-label="论文标签"></div>
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
     <li data-tags="CCF Rank-A,Journal paper">
       Jianting Ning, <strong><u>Pengfei Wu</u></strong>, Lisha Yao, Wu Luo, Guomin Yang, Feng Li, Yuxian Li, Xinyi Huang, and Robert H. Deng.
       Noisy Functional Encryption Revisited: New Constructions from LWE for Differential Privacy. 
       In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, 2026.
-      <div class="paper-tags" role="group" aria-label="论文标签"></div>
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-B,Conference paper">
+      <strong><u>Pengfei Wu</u></strong>, Lisha Yao, Guomin Yang, Yang Yang, Meng Hao, Haiyang Xue, and Robert H. Deng.
+      KyberBridge: Enabling One-to-Many Data Sharing with Kyber Cryptosystem.
+      In <em>European Symposium on Research in Computer Security (ESORICS)</em>, pp. 460-481, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
   </ol>
 </section>
@@ -90,7 +96,7 @@ title: Home
       button.type = 'button';
       button.dataset.paperTag = tag;
       button.setAttribute('aria-pressed', 'false');
-      button.textContent = (tag || '全部') + (count === undefined ? '' : ' (' + count + ')');
+      button.textContent = (tag || 'All') + (count === undefined ? '' : ' (' + count + ')');
       return button;
     }
 
@@ -103,7 +109,7 @@ title: Home
         chips = document.createElement('div');
         chips.className = 'paper-tags';
         chips.setAttribute('role', 'group');
-        chips.setAttribute('aria-label', '论文标签');
+        chips.setAttribute('aria-label', 'paper-label');
         paper.append(chips);
       }
       chips.replaceChildren();
@@ -126,7 +132,7 @@ title: Home
       section.querySelectorAll('[data-paper-tag]').forEach(function (button) {
         button.setAttribute('aria-pressed', String(button.dataset.paperTag === tag));
       });
-      status.textContent = '显示 ' + visible + ' / ' + papers.length + ' 篇论文' + (tag ? ' · ' + tag : '');
+      status.textContent = 'Show ' + visible + ' / ' + papers.length + ' papers' + (tag ? ' · ' + tag : '');
       empty.hidden = visible !== 0;
     }
 
