@@ -1,18 +1,17 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+- type: Google Scholar
+  icon: "fa-brands fa-google-scholar"
+  url: "https://scholar.google.com/citations?user=_EXOi2EAAAAJ&hl=en"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: DBLP
+  icon: "fa-solid fa-book-open"
+  url: "https://dblp.org/pid/92/1320-3.html"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: ORCID
+  icon: "fa-brands fa-orcid"
+  url: "https://orcid.org/my-orcid?orcid=0000-0003-0896-9476"
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
