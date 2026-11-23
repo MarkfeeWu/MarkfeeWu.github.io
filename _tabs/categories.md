@@ -188,10 +188,112 @@ permalink: /publications/
       In <em>IEEE Transactions on Services Computing (TSC)</em>, vol. 16, no. 1, pp. 288-301, 2023.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
-    <li data-tags="CCF Rank-C,Journal paper">
+    <li data-tags="CCF Rank-A,Journal paper">
       Chuntao Dong, Qingni Shen, Xuhua Ding, Daoqing Yu, Wu Luo, <strong><u>Pengfei Wu</u></strong>, and Zhonghai Wu.
       T-Counter: Trustworthy and Efficient CPU Resource Measurement using SGX in the Cloud.
       In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 20, no. 1, pp. 867-885, 2023.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Xinyi Huang, and Joseph. Liu. 
+      Differentially Oblivious Two-party Pattern Matching with Sublinear Round Complexity.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 20, no. 5, pp. 4101-4117, 2023.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Qi Li, Jianting Ning, Xinyi Huang, and Wei Wu. 
+      Differentially Oblivious Data Analysis with Intel SGX: Design, Optimization, and Evaluation.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 19, no. 6, pp. 3741-3758, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Qin Jiang, Ee-Chien Chang, Yong Qi, Saiyu Qi, <strong><u>Pengfei Wu</u></strong>, and Jianfeng Wang.
+      Rphx: Result Pattern Hiding Conjunctive Query over Private Compact Index Using Intel SGX.
+      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 17, pp. 1053-1068, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Jiamin Shen, Hongbing Wang, and Ee-Chien Chang.
+      Hybrid Trust Multi-party Computation with Trusted Execution Environment.
+      In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Wu Luo, Xuhua Ding, <strong><u>Pengfei Wu</u></strong>, Xiaolei Zhang, Qingni Shen, and Zhonghai Wu
+      ScriptChecker: To Tame Third-party Script Execution With Task Capabilities.
+      In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A (Chinese),Journal paper">
+      Wenjun Qian, Qingni Shen, <strong><u>Pengfei Wu</u></strong>, Chuntao Dong, and Zhonghai Wu.
+      大数据计算环境下的隐私保护技术研究进展.
+      In <em>计算机学报</em>, vol. 45, no. 4, pp. 669-701, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A (Chinese),Journal paper">
+      Wenjun Qian, Qingni Shen, <strong><u>Pengfei Wu</u></strong>, Chuntao Dong, and Zhonghai Wu.
+      大数据计算环境下的隐私保护技术研究进展.
+      In <em>计算机学报</em>, vol. 45, no. 4, pp. 669-701, 2022.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Jianfei Sun, Hu Xiong, Xuyun Nie, Yinghui Zhang, and <strong><u>Pengfei Wu</u></strong>.
+      On the Security of Privacy-Preserving Attribute-Based Keyword Search in Shared Multi-owner Setting.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 18, no. 5, pp. 2518-2519, 2021.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Robert H. Deng, Qingni Shen, Ximeng Liu, Qi Li, and Zhonghai Wu. 
+      ObliComm: Towards Building an Efficient Oblivious Communication System.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 18, no. 5, pp. 2518-2519, 2021.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A (Chinese),Journal paper">
+      Wu Luo, Qingni Shen, Zhonghai Wu, <strong><u>Pengfei Wu</u></strong>, Chuntao Dong, and Yutang Xia. 
+      浏览器同源策略安全研究综述.
+      In <em>软件学报</em>, vol. 32, no. 8, pp. 2469-2504, 2021.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A (Chinese),Journal paper">
+      Chuntao Dong, Qingni Shen, Wu Luo, <strong><u>Pengfei Wu</u></strong>, and Zhonghai Wu.
+      SGX应用支持技术研究进展.
+      In <em>软件学报</em>, vol. 32, no. 1, pp. 137-166, 2021.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-B,Journal paper">
+      Yangguang Tian, Yingjiu Li, Robert H. Deng, Nan Li, <strong><u>Pengfei Wu</u></strong>, and Anyi Liu.
+      A New Framework for Privacy-Preserving Biometric-Based Remote User Authentication.
+      In <em>Journal of Computer Security (JCS)</em>, vol. 28, no. 4, pp. 469-498, 2020.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-B,Journal paper">
+      Ximeng Liu, Robert H. Deng, <strong><u>Pengfei Wu</u></strong>, and Yang Yang.
+      Lightning-Fast and Privacy-Preserving Outsourced Computation in the Cloud.
+      In <em>Cybersecurity</em>, vol. 3, no. 1, 2020.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      Xuhao Wang, Qingni Shen, Wu Luo, and <strong><u>Pengfei Wu</u></strong>. 
+      RSDS: Getting System Call Whitelist for Container Through Dynamic and Static Analysis.
+      In <em>IEEE International Conference on Cloud Computing (Cloud)</em>, pp. 600-608, 2020.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      <strong><u>Pengfei Wu</u></strong>, Qingni Shen, Robert H. Deng, Ximeng Liu, Yinghui Zhang, and Zhonghai Wu. 
+      ObliDC: An SGX-based oblivious distributed computing framework with formal proof. 
+      In <em>ACM ASIA Conference on Computer and Communications Security (AsiaCCS)</em>, pp. 86-99, 2019.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Journal paper">
+      Yinghui Zhang, Robert H. Deng, Dong Zheng, Jin Li, <strong><u>Pengfei Wu</u></strong>, and Jin Cao.
+      Efficient and Robust Certificateless Signature for Data Crowdsensing in Cloud-assisted Industrial IoT.
+      In <em>IEEE Transactions on Industrial Informatics (TII)</em>, vol. 15, no. 9, pp. 5099-5108, 2019.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A (Chinese),Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Qingni Shen, Jia Qin, Wenjun Qian, Cong Li, and Zhonghai Wu.
+      不经意随机访问机研究综述.
+      In <em>软件学报</em>, vol. 29, no. 9, pp. 2753-2777, 2018.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
   </ol>
