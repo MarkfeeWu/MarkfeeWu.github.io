@@ -423,4 +423,80 @@ permalink: /publications/
     applyFilter('');
   });
 </script>
+<style>
+.paper-list-module .paper-search-target {
+  scroll-margin-top: 90px;
+  background: var(--prompt-info-bg, rgba(59, 130, 246, 0.08));
+  outline: 2px solid var(--link-color, #2469a5);
+  outline-offset: 5px;
+  border-radius: 4px;
+}
+</style>
 
+<script>
+(function () {
+  var papers = Array.from(
+    document.querySelectorAll('.paper-list-module .paper-list > li')
+  );
+
+  papers.forEach(function (paper, index) {
+    paper.id = 'paper-' + (index + 1);
+  });
+
+  function jumpToPaper() {
+    if (!/^#paper-\d+$/.test(location.hash)) return;
+
+    var target = document.getElementById(location.hash.slice(1));
+    if (!target) return;
+
+    var cancel = document.getElementById('search-cancel');
+    var input = document.getElementById('search-input');
+
+    if (cancel && cancel.classList.contains('d-block')) {
+      cancel.click();
+    }
+
+    if (input) {
+      input.value = '';
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+
+    var section = target.closest('.paper-list-module');
+    var reset = section.querySelector(
+      '.paper-filters [data-paper-tag=""]'
+    );
+    if (reset) reset.click();
+
+    papers.forEach(function (paper) {
+      paper.classList.toggle('paper-search-target', paper === target);
+    });
+
+    requestAnimationFrame(function () {
+      target.scrollIntoView({ block: 'center' });
+    });
+  }
+
+  window.addEventListener('hashchange', jumpToPaper);
+
+  document.addEventListener('click', function (event) {
+    if (event.button !== 0 || event.ctrlKey || event.metaKey ||
+        event.shiftKey || event.altKey) return;
+
+    var link = event.target.closest('#search-results a');
+    if (!link) return;
+
+    var url = new URL(link.href, location.href);
+    if (url.origin !== location.origin ||
+        url.pathname !== location.pathname ||
+        !/^#paper-\d+$/.test(url.hash)) return;
+
+    event.preventDefault();
+    if (url.href !== location.href) {
+      history.pushState(null, '', url.href);
+    }
+    jumpToPaper();
+  });
+
+  requestAnimationFrame(jumpToPaper);
+})();
+</script>
