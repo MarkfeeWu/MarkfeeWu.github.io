@@ -1,0 +1,7 @@
+---
+layout: null
+permalink: /assets/js/data/search-zh.json
+lang: zh-CN
+swcache: true
+---
+{% include bilingual-search-index.html lang='zh-CN' %}

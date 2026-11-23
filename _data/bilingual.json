@@ -1,0 +1,347 @@
+{
+  "en": {
+    "profile_name": "Pengfei Wu",
+    "empty_blog": "No blog posts yet.",
+    "empty_tags": "No blog tags yet.",
+    "publication": "Publication",
+    "publication_category": "Publications",
+    "sidebar": "Sidebar",
+    "search": "Search",
+    "switch_label": "中文",
+    "switch_title": "Switch to Chinese",
+    "contacts": {}
+  },
+  "zh-CN": {
+    "profile_name": "Pengfei Wu",
+    "tagline_html": "北京大学助理教授<br><a href=\"mailto:wupf@pku.edu.cn\" style=\"font-style: normal;\">邮箱：wupf@pku.edu.cn</a>",
+    "empty_blog": "暂无博文。",
+    "empty_tags": "暂无博客标签。",
+    "publication": "论文",
+    "publication_category": "学术论文",
+    "sidebar": "侧栏导航",
+    "search": "搜索",
+    "switch_label": "English",
+    "switch_title": "切换至英文版",
+    "contacts": {
+      "Google Scholar": "谷歌学术",
+      "DBLP": "DBLP 文献库",
+      "ORCID": "ORCID 研究者标识",
+      "email": "电子邮件",
+      "rss": "订阅"
+    }
+  },
+  "papers": [
+    {
+      "en": "STEAD: Subversion-Resistant Portable Encrypted Data Deduplication with File Sharing",
+      "zh": "STEAD：支持文件共享的抗颠覆攻击便携式加密数据去重"
+    },
+    {
+      "en": "Noisy Functional Encryption Revisited: New Constructions from LWE for Differential Privacy",
+      "zh": "噪声函数加密再探：基于 LWE 的差分隐私新构造"
+    },
+    {
+      "en": "KyberBridge: Enabling One-to-Many Data Sharing with Kyber Cryptosystem",
+      "zh": "KyberBridge：利用 Kyber 密码系统实现一对多数据共享"
+    },
+    {
+      "en": "Corruption is Futile: Hardware-Assisted Multi-User Searchable Encryption",
+      "zh": "攻陷亦徒劳：硬件辅助的多用户可搜索加密"
+    },
+    {
+      "en": "Understanding the Security of Cloud Storage Services: A Case Study and UC-Secure Design",
+      "zh": "云存储服务安全性研究：案例分析与 UC 安全设计"
+    },
+    {
+      "en": "AuthGraph: Privacy-Preserving and Authorized Multi-Client Graph Search with Trusted Hardware",
+      "zh": "AuthGraph：借助可信硬件实现隐私保护与授权的多客户端图搜索"
+    },
+    {
+      "en": "PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption",
+      "zh": "PriSrv+：基于快速且富表达力匹配加密的隐私与可用性增强无线服务发现"
+    },
+    {
+      "en": "Breaking the Trilemma: Toward Efficient, Privacy-Preserving, and Forward-Secure Data Sharing in the Post-Quantum Era",
+      "zh": "破解三难困境：面向后量子时代高效、隐私保护且前向安全的数据共享"
+    },
+    {
+      "en": "Privacy-Preserving Deep Packet Inspection with Dual Double-masking Obfuscated Rule Generation",
+      "zh": "基于双重掩码混淆规则生成的隐私保护深度包检测"
+    },
+    {
+      "en": "TLARDA: Threshold Label-Aggregating Remote Data Auditing in Decentralized Environment",
+      "zh": "TLARDA：去中心化环境下基于门限标签聚合的远程数据审计"
+    },
+    {
+      "en": "Verifiable and Privacy-Enhanced Authorized Keyword Search for Mobile Cloud Storage",
+      "zh": "面向移动云存储的可验证与隐私增强授权关键词搜索"
+    },
+    {
+      "en": "AuditPCH: Auditable Payment Channel Hub with Privacy Protection",
+      "zh": "AuditPCH：支持隐私保护的可审计支付通道枢纽"
+    },
+    {
+      "en": "Attribute-Based Conditional PRE from LWE: Multi-Hop, Adaptive-Policy, and HRA Security",
+      "zh": "基于 LWE 的属性条件代理重加密：多跳、自适应策略及 HRA 安全性"
+    },
+    {
+      "en": "Conditional Attribute-Based PRE: Definition and Construction from LWE",
+      "zh": "条件属性代理重加密：定义及基于 LWE 的构造"
+    },
+    {
+      "en": "Verifiable and Privacy-Preserving Deep Packet Inspection for Multiple Rule Service Providers",
+      "zh": "面向多规则服务提供方的可验证隐私保护深度包检测"
+    },
+    {
+      "en": "Practical Keyword Private Information Retrieval from Key-to-Index Mappings",
+      "zh": "基于键到索引映射的实用关键词私有信息检索"
+    },
+    {
+      "en": "Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer",
+      "zh": "Achilles：通过 Rowhammer 泄露签名方案秘密信息的形式化框架"
+    },
+    {
+      "en": "SoK: Understanding zk-SNARKs: The Gap Between Research and Practice",
+      "zh": "知识体系梳理：理解 zk-SNARKs——研究与实践之间的差距"
+    },
+    {
+      "en": "Privacy-preserving and verifiable data aggregation for Internet of Vehicles",
+      "zh": "面向车联网的隐私保护与可验证数据聚合"
+    },
+    {
+      "en": "Towards Privacy-aware IoT Communications: Delegable, Revocable, and Efficient",
+      "zh": "面向隐私感知的物联网通信：可委托、可撤销与高效实现"
+    },
+    {
+      "en": "DCDPI: Dynamic and Continuous Deep Packet Inspection in Secure Outsourced Middleboxes",
+      "zh": "DCDPI：安全外包中间盒中的动态持续深度包检测"
+    },
+    {
+      "en": "Beyond Volume Pattern: Storage-Efficient Boolean Searchable Symmetric Encryption with Suppressed Leakage",
+      "zh": "超越容量模式：抑制泄露且节省存储的布尔可搜索对称加密"
+    },
+    {
+      "en": "Exploring Dynamic Task Loading in SGX-based Distributed Computing",
+      "zh": "基于 SGX 的分布式计算中的动态任务加载研究"
+    },
+    {
+      "en": "T-Counter: Trustworthy and Efficient CPU Resource Measurement using SGX in the Cloud",
+      "zh": "T-Counter：云环境中基于 SGX 的可信高效 CPU 资源计量"
+    },
+    {
+      "en": "Differentially Oblivious Two-party Pattern Matching with Sublinear Round Complexity",
+      "zh": "具有次线性轮复杂度的差分不经意两方模式匹配"
+    },
+    {
+      "en": "Differentially Oblivious Data Analysis with Intel SGX: Design, Optimization, and Evaluation",
+      "zh": "基于 Intel SGX 的差分不经意数据分析：设计、优化与评估"
+    },
+    {
+      "en": "Rphx: Result Pattern Hiding Conjunctive Query over Private Compact Index Using Intel SGX",
+      "zh": "Rphx：基于 Intel SGX 在私有紧凑索引上隐藏结果模式的合取查询"
+    },
+    {
+      "en": "Hybrid Trust Multi-party Computation with Trusted Execution Environment",
+      "zh": "借助可信执行环境实现混合信任多方计算"
+    },
+    {
+      "en": "ScriptChecker: To Tame Third-party Script Execution With Task Capabilities",
+      "zh": "ScriptChecker：利用任务能力机制约束第三方脚本执行"
+    },
+    {
+      "en": "大数据计算环境下的隐私保护技术研究进展",
+      "zh": "大数据计算环境下的隐私保护技术研究进展"
+    },
+    {
+      "en": "On the Security of Privacy-Preserving Attribute-Based Keyword Search in Shared Multi-owner Setting",
+      "zh": "共享多拥有者场景中隐私保护属性关键词搜索的安全性研究"
+    },
+    {
+      "en": "ObliComm: Towards Building an Efficient Oblivious Communication System",
+      "zh": "ObliComm：构建高效不经意通信系统"
+    },
+    {
+      "en": "浏览器同源策略安全研究综述",
+      "zh": "浏览器同源策略安全研究综述"
+    },
+    {
+      "en": "SGX应用支持技术研究进展",
+      "zh": "SGX 应用支持技术研究进展"
+    },
+    {
+      "en": "A New Framework for Privacy-Preserving Biometric-Based Remote User Authentication",
+      "zh": "支持隐私保护的生物特征远程用户认证新框架"
+    },
+    {
+      "en": "Lightning-Fast and Privacy-Preserving Outsourced Computation in the Cloud",
+      "zh": "云环境中的极速隐私保护外包计算"
+    },
+    {
+      "en": "RSDS: Getting System Call Whitelist for Container Through Dynamic and Static Analysis",
+      "zh": "RSDS：通过动态与静态分析获取容器系统调用白名单"
+    },
+    {
+      "en": "ObliDC: An SGX-based oblivious distributed computing framework with formal proof",
+      "zh": "ObliDC：具有形式化证明的基于 SGX 的不经意分布式计算框架"
+    },
+    {
+      "en": "Efficient and Robust Certificateless Signature for Data Crowdsensing in Cloud-assisted Industrial IoT",
+      "zh": "面向云辅助工业物联网数据群智感知的高效稳健无证书签名"
+    },
+    {
+      "en": "不经意随机访问机研究综述",
+      "zh": "不经意随机访问机研究综述"
+    }
+  ],
+  "venues": [
+    [
+      "IEEE Transactions on Information Forensics and Security (TIFS)",
+      "IEEE 信息取证与安全汇刊（TIFS）"
+    ],
+    [
+      "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+      "IEEE 可靠与安全计算汇刊（TDSC）"
+    ],
+    [
+      "European Symposium on Research in Computer Security (ESORICS)",
+      "欧洲计算机安全研究研讨会（ESORICS）"
+    ],
+    [
+      "Australasian Conference on Information Security and Privacy (ACISP)",
+      "澳大利亚信息安全与隐私会议（ACISP）"
+    ],
+    [
+      "Network and Distributed System Security Symposium (NDSS)",
+      "网络与分布式系统安全研讨会（NDSS）"
+    ],
+    [
+      "IEEE Internet of Things Journal (IoT-J)",
+      "IEEE 物联网期刊（IoT-J）"
+    ],
+    [
+      "IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+      "IEEE 计算与通信信任、安全和隐私国际会议（TrustCom）"
+    ],
+    [
+      "International Conference on Information Security (ISC)",
+      "国际信息安全会议（ISC）"
+    ],
+    [
+      "International Conference on Information Security and Cryptology (Inscrypt)",
+      "信息安全与密码学国际会议（Inscrypt）"
+    ],
+    [
+      "USENIX Security Symposium",
+      "USENIX 安全研讨会"
+    ],
+    [
+      "Computer Communications",
+      "计算机通信"
+    ],
+    [
+      "IEEE Transactions on Cloud Computing (TCC)",
+      "IEEE 云计算汇刊（TCC）"
+    ],
+    [
+      "IEEE Transactions on Services Computing (TSC)",
+      "IEEE 服务计算汇刊（TSC）"
+    ],
+    [
+      "Journal of Computer Security (JCS)",
+      "计算机安全期刊（JCS）"
+    ],
+    [
+      "Cybersecurity",
+      "网络安全"
+    ],
+    [
+      "IEEE International Conference on Cloud Computing (Cloud)",
+      "IEEE 云计算国际会议（Cloud）"
+    ],
+    [
+      "ACM ASIA Conference on Computer and Communications Security (AsiaCCS)",
+      "ACM 亚洲计算机与通信安全会议（AsiaCCS）"
+    ],
+    [
+      "IEEE Transactions on Industrial Informatics (TII)",
+      "IEEE 工业信息学汇刊（TII）"
+    ]
+  ],
+  "publication_ui": [
+    [
+      "CCF Rank-A (Chinese)",
+      "CCF A类（中文）"
+    ],
+    [
+      "CCF Rank-A",
+      "CCF A类"
+    ],
+    [
+      "CCF Rank-B",
+      "CCF B类"
+    ],
+    [
+      "CCF Rank-C",
+      "CCF C类"
+    ],
+    [
+      "Journal paper",
+      "期刊论文"
+    ],
+    [
+      "Conference paper",
+      "会议论文"
+    ],
+    [
+      "Select paper by topic",
+      "按主题筛选论文"
+    ],
+    [
+      "paper-label",
+      "论文标签"
+    ],
+    [
+      "No paper under this topic。",
+      "该主题下暂无论文。"
+    ],
+    [
+      "No paper under this topic.",
+      "该主题下暂无论文。"
+    ],
+    [
+      "'All'",
+      "'全部'"
+    ],
+    [
+      "'Show '",
+      "'显示 '"
+    ],
+    [
+      "' papers'",
+      "' 篇论文'"
+    ],
+    [
+      "In <em>",
+      "发表于 <em>"
+    ],
+    [
+      "vol. ",
+      "卷号："
+    ],
+    [
+      "no. ",
+      "期号："
+    ],
+    [
+      "pp. ",
+      "页码："
+    ],
+    [
+      ", and ",
+      "，和 "
+    ],
+    [
+      " and ",
+      " 和 "
+    ]
+  ]
+}

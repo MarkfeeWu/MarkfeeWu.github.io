@@ -1,0 +1,8 @@
+{%- include language-target.html lang=include.lang -%}
+<a class="language-switch btn btn-sm btn-outline-secondary ms-2"
+   href="{{ switch_url | relative_url }}"
+   hreflang="{{ switch_lang }}"
+   lang="{{ switch_lang }}"
+   title="{{ bilingual_ui.switch_title }}"
+   aria-label="{{ bilingual_ui.switch_title }}"
+   data-preserve-hash="{{ switch_preserve_hash }}">{{ bilingual_ui.switch_label }}</a>

@@ -1,0 +1,30 @@
+{% include bilingual-context.html lang=include.lang %}
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="{{ bilingual_ui.search }}">
+  <div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100">
+    <nav id="breadcrumb" aria-label="{{ site.data.locales[include.lang].tabs.home }}">
+      {% if page.url == language_home or page.layout == 'home' %}
+        <span>{{ site.data.locales[include.lang].tabs.home }}</span>
+      {% else %}
+        <span><a href="{{ language_home | relative_url }}">{{ site.data.locales[include.lang].tabs.home }}</a></span>
+        {% if page.layout == 'tag' %}
+          <span><a href="{{ language_prefix | append: '/tags/' | relative_url }}">{{ site.data.locales[include.lang].tabs.tags }}</a></span>
+        {% endif %}
+        <span>{{ page.title }}</span>
+      {% endif %}
+    </nav>
+    <button type="button" id="sidebar-trigger" class="btn btn-link" aria-label="{{ bilingual_ui.sidebar }}">
+      <i class="fas fa-bars fa-fw"></i>
+    </button>
+    <div id="topbar-title">{{ page.title | default: bilingual_ui.profile_name | default: site.title }}</div>
+    <button type="button" id="search-trigger" class="btn btn-link" aria-label="{{ bilingual_ui.search }}">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+    <search id="search" class="align-items-center ms-3 ms-lg-0">
+      <i class="fas fa-search fa-fw"></i>
+      <input class="form-control" id="search-input" type="search" aria-label="{{ bilingual_ui.search }}"
+        autocomplete="off" placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}...">
+    </search>
+    {% include language-switch.html lang=include.lang %}
+    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">{{ site.data.locales[include.lang].search.cancel }}</button>
+  </div>
+</header>

@@ -1,0 +1,52 @@
+{% include bilingual-context.html lang=include.lang %}
+{% assign first_entry = true %}
+[
+{% for post in localized_posts %}
+  {% unless first_entry %},{% endunless %}
+  {
+    "title": {{ post.title | jsonify }},
+    "url": {{ post.url | relative_url | jsonify }},
+    "categories": {{ post.categories | join: ', ' | jsonify }},
+    "tags": {{ post.tags | join: ', ' | jsonify }},
+    "content": {{ post.content | markdownify | strip_html | normalize_whitespace | jsonify }}
+  }
+  {% assign first_entry = false %}
+{% endfor %}
+{% assign publication_document = site.tabs | where: 'url', '/publications/' | first %}
+{% assign blocks = publication_document.content | split: '</li>' %}
+{% assign paper_number = 0 %}
+{% for block in blocks %}
+  {% if block contains '<li' %}
+    {% assign paper_number = paper_number | plus: 1 %}
+    {% assign paper_html = block | split: '<li' | last | prepend: '<li' %}
+    {% assign english_paper_text = paper_html | strip_html | normalize_whitespace %}
+    {% assign paper_title = bilingual_ui.publication | append: ' ' | append: paper_number %}
+    {% for paper_translation in site.data.bilingual.papers %}
+      {% if english_paper_text contains paper_translation.en %}
+        {% if bilingual_lang == 'zh-CN' %}
+          {% assign paper_title = paper_translation.zh %}
+        {% else %}
+          {% assign paper_title = paper_translation.en %}
+        {% endif %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% if bilingual_lang == 'zh-CN' %}
+      {% include bilingual-publications.html content=paper_html %}
+      {% assign paper_text = translated_publications | strip_html | normalize_whitespace %}
+    {% else %}
+      {% assign paper_text = english_paper_text %}
+    {% endif %}
+    {% capture paper_url %}{{ language_prefix | append: '/publications/' | relative_url }}#paper-{{ paper_number }}{% endcapture %}
+    {% unless first_entry %},{% endunless %}
+    {
+      "title": {{ paper_title | jsonify }},
+      "url": {{ paper_url | strip | jsonify }},
+      "categories": {{ bilingual_ui.publication_category | jsonify }},
+      "tags": "",
+      "content": {{ paper_text | jsonify }}
+    }
+    {% assign first_entry = false %}
+  {% endif %}
+{% endfor %}
+]

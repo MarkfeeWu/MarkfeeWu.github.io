@@ -1,43 +1,7 @@
 ---
 layout: null
 permalink: /assets/js/data/search.json
+lang: en
 swcache: true
 ---
-
-{% assign first_entry = true %}
-[
-{% for post in site.posts %}
-  {% unless first_entry %},{% endunless %}
-  {
-    "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
-    "categories": {{ post.categories | join: ', ' | jsonify }},
-    "tags": {{ post.tags | join: ', ' | jsonify }},
-    "content": {{ post.content | markdownify | strip_html | normalize_whitespace | jsonify }}
-  }
-  {% assign first_entry = false %}
-{% endfor %}
-
-{% assign publications = site.tabs | where: "url", "/publications/" | first %}
-{% assign blocks = publications.content | split: '</li>' %}
-{% assign paper_number = 0 %}
-
-{% for block in blocks %}
-  {% if block contains '<li' %}
-    {% assign paper_number = paper_number | plus: 1 %}
-    {% assign paper_html = block | split: '<li' | last | prepend: '<li' %}
-    {% assign paper_text = paper_html | strip_html | normalize_whitespace %}
-    {% capture paper_url %}{{ '/publications/' | relative_url }}#paper-{{ paper_number }}{% endcapture %}
-
-    {% unless first_entry %},{% endunless %}
-    {
-      "title": {{ 'Publication ' | append: paper_number | jsonify }},
-      "url": {{ paper_url | strip | jsonify }},
-      "categories": "Publications",
-      "tags": "",
-      "content": {{ paper_text | jsonify }}
-    }
-    {% assign first_entry = false %}
-  {% endif %}
-{% endfor %}
-]
+{% include bilingual-search-index.html lang='en' %}

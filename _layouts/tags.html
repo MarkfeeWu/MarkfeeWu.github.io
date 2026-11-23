@@ -1,0 +1,18 @@
+---
+layout: page
+---
+{% include lang.html %}
+{% include bilingual-context.html lang=lang %}
+{% assign language_tags = '' | split: '' %}
+{% for tagged_post in localized_posts %}
+  {% assign language_tags = language_tags | concat: tagged_post.tags | uniq %}
+{% endfor %}
+{% assign sorted_tags = language_tags | sort_natural %}
+<div id="tags" class="d-flex flex-wrap mx-xl-2">
+  {% for tag_name in sorted_tags %}
+    {% assign tagged_posts = localized_posts | where_exp: 'entry', 'entry.tags contains tag_name' %}
+    {% capture tag_url %}{{ language_prefix }}/tags/{{ tag_name | slugify | url_encode }}/{% endcapture %}
+    <div><a class="tag" href="{{ tag_url | relative_url }}">{{ tag_name }}<span class="text-muted">{{ tagged_posts.size }}</span></a></div>
+  {% endfor %}
+  {% if sorted_tags.size == 0 %}<p class="text-muted">{{ bilingual_ui.empty_tags }}</p>{% endif %}
+</div>

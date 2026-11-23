@@ -1,0 +1,39 @@
+{%- include bilingual-context.html lang=include.lang -%}
+{%- assign switch_url = '' -%}
+{%- assign switch_preserve_hash = false -%}
+{%- if bilingual_lang == 'zh-CN' -%}
+  {%- assign switch_lang = 'en' -%}
+  {%- assign switch_fallback = '/' -%}
+  {%- if page.english_url -%}
+    {%- assign switch_desired_url = page.english_url -%}
+  {%- else -%}
+    {%- assign switch_desired_url = page.url | remove_first: '/zh' -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign switch_lang = 'zh-CN' -%}
+  {%- assign switch_fallback = '/zh/' -%}
+  {%- assign switch_desired_url = page.url | prepend: '/zh' -%}
+{%- endif -%}
+{%- assign bilingual_candidates = site.pages | concat: site.posts | concat: site.tabs -%}
+{%- for bilingual_candidate in bilingual_candidates -%}
+  {%- assign bilingual_candidate_lang = bilingual_candidate.lang | default: site.lang | default: 'en' -%}
+  {%- if bilingual_candidate_lang == switch_lang -%}
+    {%- if bilingual_candidate.url == switch_desired_url -%}
+      {%- assign switch_url = bilingual_candidate.url -%}
+      {%- break -%}
+    {%- elsif page.translation_key and bilingual_candidate.translation_key == page.translation_key -%}
+      {%- assign switch_url = bilingual_candidate.url -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if switch_url == empty -%}
+  {%- if page.collection == 'posts' -%}
+    {%- assign switch_url = switch_fallback | append: 'blogs/' -%}
+  {%- else -%}
+    {%- assign switch_url = switch_fallback -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if page.url contains '/publications/' and switch_url contains '/publications/' -%}
+  {%- assign switch_preserve_hash = true -%}
+{%- endif -%}
