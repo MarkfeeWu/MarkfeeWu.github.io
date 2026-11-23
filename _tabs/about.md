@@ -3,5 +3,4 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-<a>CCF Conference Deadline</a>
+<a href="https://ccfddl.com/"><strong>CCF Conference Deadline</strong></a>
