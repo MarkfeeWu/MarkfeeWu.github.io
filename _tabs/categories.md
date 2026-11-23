@@ -36,7 +36,6 @@ order: 1
   .paper-list-module .paper-rank { display: inline-block; padding: .05rem .2rem; background: #ff0000; color: #000; white-space: nowrap; }
 </style>
 <section class="paper-list-module" aria-labelledby="publications-title">
-  <h2 id="publications-title">Selected Publications</h2>
 
   <!-- The script generates these filter buttons from the tags on each li. -->
   <div class="paper-filter-tools" hidden>
