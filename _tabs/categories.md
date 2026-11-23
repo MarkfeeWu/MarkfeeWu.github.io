@@ -217,13 +217,13 @@ permalink: /publications/
       In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 17, pp. 1053-1068, 2022.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
-    <li data-tags="CCF Rank-A,Journal paper">
+    <li data-tags="CCF Rank-A,Conference paper">
       <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Jiamin Shen, Hongbing Wang, and Ee-Chien Chang.
       Hybrid Trust Multi-party Computation with Trusted Execution Environment.
       In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2022.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
-    <li data-tags="CCF Rank-A,Journal paper">
+    <li data-tags="CCF Rank-A,Conference paper">
       Wu Luo, Xuhua Ding, <strong><u>Pengfei Wu</u></strong>, Xiaolei Zhang, Qingni Shen, and Zhonghai Wu
       ScriptChecker: To Tame Third-party Script Execution With Task Capabilities.
       In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2022.
