@@ -1,0 +1,20 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+#sidebar .site-subtitle {
+  height: auto;
+}
+
+#sidebar > nav {
+  margin-top: 32px;
+}
