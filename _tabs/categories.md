@@ -93,9 +93,75 @@ permalink: /publications/
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
      <li data-tags="CCF Rank-A,Journal paper">
-      Lisha Yao, Jian Weng, Pengfei Wu, Shixin Chen, Jianfei Sun, Guomin Yang, and Robert H. Deng.
+      Lisha Yao, Jian Weng, <strong><u>Pengfei Wu</u></strong>, Shixin Chen, Jianfei Sun, Guomin Yang, and Robert H. Deng.
       Breaking the Trilemma: Toward Efficient, Privacy-Preserving, and Forward-Secure Data Sharing in the Post-Quantum Era.
-      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 13370-13385, 2026.
+      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 13370-13385, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Xinyi Huang, Rongmao Chen, Kai Zhang, and Kaitai Liang. 
+      Privacy-Preserving Deep Packet Inspection with Dual Double-masking Obfuscated Rule Generation.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 22, vol. 5, pp. 4954-4970, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Kuan Liu, Jianting Ning, <strong><u>Pengfei Wu</u></strong>, Shengmin Xu, and Rongmao Chen. 
+      TLARDA: Threshold Label-Aggregating Remote Data Auditing in Decentralized Environment.
+      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 3146-3160, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Journal paper">
+      Zhentao Long, Kai Zhang, Jinguo Li, <strong><u>Pengfei Wu</u></strong>, and Jianting Ning.
+      Verifiable and Privacy-Enhanced Authorized Keyword Search for Mobile Cloud Storage
+      In <em>IEEE Internet of Things Journal (IoT-J)</em>, vol. 12, no. 6, pp. 7348-7359, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Yuxian Li, Jian Weng, Junzuo Lai, Jiahe Wu, Ming Li, Jianfei Sun, <strong><u>Pengfei Wu</u></strong>, Robert H. Deng, and Yingjiu Li.
+      AuditPCH: Auditable Payment Channel Hub with Privacy Protection.
+      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 1251-1261, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      Lisha Yao, <strong><u>Pengfei Wu</u></strong>, Jian Weng, Guomin Yang, and Robert H. Deng.
+      Attribute-Based Conditional PRE from LWE: Multi-Hop, Adaptive-Policy, and HRA Security.
+      In <em>IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</em>, pp. 793-804, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      Lisha Yao, Jian Weng, <strong><u>Pengfei Wu</u></strong>, Guofeng Tang, Guomin Yang, Haiyang Xue, and Robert H. Deng
+      Conditional Attribute-Based PRE: Definition and Construction from LWE.
+      In <em>International Conference on Information Security (ISC)</em>, pp. 131-151, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      Zhentao Long, <strong><u>Pengfei Wu</u></strong>, Kai Zhang, Junqing Gong, and Jianting Ning.
+      Verifiable and Privacy-Preserving Deep Packet Inspection for Multiple Rule Service Providers.
+      In <em>International Conference on Information Security and Cryptology (Inscrypt)</em>, pp. 275-295, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Conference paper">
+      Meng Hao, Weiran Liu, Liqiang Peng, Cong Zhang, <strong><u>Pengfei Wu</u></strong>, Lei Zhang, Hongwei Li, and Robert H. Deng. 
+      Practical Keyword Private Information Retrieval from Key-to-Index Mappings.
+      In <em>USENIX Security Symposium</em>, pp. 3397-3416, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Conference paper">
+      Junkai Liang, Zhi Zhang, Xin Zhang, Qingni Shen, Yansong Gao, Xingliang Yuan, Haiyang Xue, <strong><u>Pengfei Wu</u></strong>, and Zhonghai Wu.
+      Achilles: A Formal Framework of Leaking Secrets from Signature Schemes via Rowhammer.
+      In <em>USENIX Security Symposium</em>, pp. 6757-6776, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Conference paper">
+      Junkai Liang, Daqi Hu, <strong><u>Pengfei Wu</u></strong>, Yunbo Yang, Qingni Shen, and Zhonghai Wu. 
+      SoK: Understanding zk-SNARKs: The Gap Between Research and Practice.
+      In <em>USENIX Security Symposium</em>, pp. 2085-2104, 2025.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Journal paper">
+      Fucai Zhou, Qiyu Wu, <strong><u>Pengfei Wu</u></strong>, Jian Xu, and Da Feng.
+      Privacy-preserving and verifiable data aggregation for Internet of Vehicles.
+      In <em>Computer Communications</em>, vol. 218, pp. 198-208, 2025.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
   </ol>
