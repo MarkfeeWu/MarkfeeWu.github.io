@@ -398,8 +398,6 @@ permalink: /publications/
         paper.hidden = !matches;
         if (matches) visible += 1;
       });
-      // A year is visible whenever at least one of its papers matches the current filter.
-      // Use each paper's hidden flag, not computed visibility while its year may be hidden.
       var nextNumber = 1;
       yearGroups.forEach(function (group) {
         var groupPapers = Array.from(group.querySelectorAll('.paper-list > li'));
