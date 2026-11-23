@@ -1,11 +1,2 @@
 {%- assign bilingual_publication_document = site.tabs | where: 'url', '/publications/' | first -%}
 {%- assign translated_publications = include.content | default: bilingual_publication_document.content -%}
-{%- for bilingual_translation in site.data.bilingual.papers -%}
-  {%- assign translated_publications = translated_publications | replace: bilingual_translation.en, bilingual_translation.zh -%}
-{%- endfor -%}
-{%- for bilingual_replacement in site.data.bilingual.venues -%}
-  {%- assign translated_publications = translated_publications | replace: bilingual_replacement[0], bilingual_replacement[1] -%}
-{%- endfor -%}
-{%- for bilingual_replacement in site.data.bilingual.publication_ui -%}
-  {%- assign translated_publications = translated_publications | replace: bilingual_replacement[0], bilingual_replacement[1] -%}
-{%- endfor -%}

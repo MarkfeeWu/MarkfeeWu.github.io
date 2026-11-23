@@ -1,12 +1,12 @@
 ---
-layout: null
+layout: page
+title: 学术论文
+lang: zh-CN
+bilingual_tab: true
 permalink: /zh/publications/
-sitemap: false
+english_url: /publications/
+translation_key: publications
 ---
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url={{ '/publications/' | relative_url }}">
-<link rel="canonical" href="{{ '/publications/' | absolute_url }}">
-<title>Publications</title>
-<script>location.replace({{ '/publications/' | relative_url | jsonify }} + location.search + location.hash);</script>
-</head><body><a href="{{ '/publications/' | relative_url }}">Continue to Publications</a></body></html>
+
+{% include bilingual-publications.html %}
+{{ translated_publications }}

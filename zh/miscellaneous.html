@@ -1,12 +1,10 @@
 ---
-layout: null
+layout: page
+title: 其他资源
+lang: zh-CN
+bilingual_tab: true
 permalink: /zh/miscellaneous/
-sitemap: false
+english_url: /miscellaneous/
 ---
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url={{ '/miscellaneous/' | relative_url }}">
-<link rel="canonical" href="{{ '/miscellaneous/' | absolute_url }}">
-<title>Miscellaneous</title>
-<script>location.replace({{ '/miscellaneous/' | relative_url | jsonify }} + location.search + location.hash);</script>
-</head><body><a href="{{ '/miscellaneous/' | relative_url }}">Continue to Miscellaneous</a></body></html>
+{% assign original_miscellaneous = site.tabs | where: 'url', '/miscellaneous/' | first %}
+{{ original_miscellaneous.content }}

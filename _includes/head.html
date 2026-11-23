@@ -134,10 +134,8 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.url == '/' or page.url == '/zh/' %}
   {% include language-target.html lang=include.lang %}
   <link rel="alternate" hreflang="{{ switch_lang }}" href="{{ switch_url | absolute_url }}">
   <script defer src="{{ '/assets/js/bilingual.js' | relative_url }}"></script>
-  {% endif %}
   {% include metadata-hook.html %}
 </head>

@@ -5,7 +5,7 @@
   {% unless first_entry %},{% endunless %}
   {
     "title": {{ post.title | jsonify }},
-    "url": {{ post.url | relative_url | jsonify }},
+    "url": {{ language_prefix | append: post.url | relative_url | jsonify }},
     "categories": {{ post.categories | join: ', ' | jsonify }},
     "tags": {{ post.tags | join: ', ' | jsonify }},
     "content": {{ post.content | markdownify | strip_html | normalize_whitespace | jsonify }}
@@ -23,20 +23,11 @@
     {% assign paper_title = bilingual_ui.publication | append: ' ' | append: paper_number %}
     {% for paper_translation in site.data.bilingual.papers %}
       {% if english_paper_text contains paper_translation.en %}
-        {% if bilingual_lang == 'zh-CN' %}
-          {% assign paper_title = paper_translation.zh %}
-        {% else %}
-          {% assign paper_title = paper_translation.en %}
-        {% endif %}
+        {% assign paper_title = paper_translation.en %}
         {% break %}
       {% endif %}
     {% endfor %}
-    {% if bilingual_lang == 'zh-CN' %}
-      {% include bilingual-publications.html content=paper_html %}
-      {% assign paper_text = translated_publications | strip_html | normalize_whitespace %}
-    {% else %}
-      {% assign paper_text = english_paper_text %}
-    {% endif %}
+    {% assign paper_text = english_paper_text %}
     {% capture paper_url %}{{ language_prefix | append: '/publications/' | relative_url }}#paper-{{ paper_number }}{% endcapture %}
     {% unless first_entry %},{% endunless %}
     {

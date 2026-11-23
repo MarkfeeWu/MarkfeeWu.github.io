@@ -1,5 +1,5 @@
 {% include bilingual-context.html lang=include.lang %}
-<header id="topbar-wrapper" class="flex-shrink-0{% if page.url == "/" or page.url == "/zh/" %} home-language-nav{% endif %}" aria-label="{{ bilingual_ui.search }}">
+<header id="topbar-wrapper" class="flex-shrink-0" aria-label="{{ bilingual_ui.search }}">
   <div id="topbar" class="d-flex align-items-center justify-content-between px-lg-3 h-100">
     <nav id="breadcrumb" aria-label="{{ site.data.locales[include.lang].tabs.home }}">
       {% if page.url == language_home or page.layout == 'home' %}
