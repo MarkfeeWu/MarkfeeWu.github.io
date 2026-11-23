@@ -45,10 +45,10 @@ permalink: /publications/
   </div>
   <p class="paper-empty" hidden>No paper under this topic。</p>
 
-  <ol class="paper-list">
-    <!-- Add tags to each li, separated by commas. Chinese tag names also work. -->
-    <!-- Add another li inside this ol for each additional paper. -->
+  <!-- Keep each year heading outside its ordered list: optional </li> removal is then safe. -->
+  <div class="paper-year-group" data-year="2026">
     <h3>2026</h3>
+    <ol class="paper-list" start="1">
     <li data-tags="CCF Rank-A,Journal paper">
       Changsong Jiang, Xiaosong Zhang, Guomin Yang, Zhongming Wang, Meng Hao,
       <strong><u>Pengfei Wu</u></strong>.
@@ -93,8 +93,13 @@ permalink: /publications/
       In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2025">
     <h3>2025</h3>
-     <li data-tags="CCF Rank-A,Journal paper">
+    <ol class="paper-list" start="8">
+    <li data-tags="CCF Rank-A,Journal paper">
       Lisha Yao, Jian Weng, <strong><u>Pengfei Wu</u></strong>, Shixin Chen, Jianfei Sun, Guomin Yang, and Robert H. Deng.
       Breaking the Trilemma: Toward Efficient, Privacy-Preserving, and Forward-Secure Data Sharing in the Post-Quantum Era.
       In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 13370-13385, 2025.
@@ -160,7 +165,12 @@ permalink: /publications/
       In <em>USENIX Security Symposium</em>, pp. 2085-2104, 2025.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2024">
     <h3>2024</h3>
+    <ol class="paper-list" start="19">
     <li data-tags="CCF Rank-C,Journal paper">
       Fucai Zhou, Qiyu Wu, <strong><u>Pengfei Wu</u></strong>, Jian Xu, and Da Feng.
       Privacy-preserving and verifiable data aggregation for Internet of Vehicles.
@@ -173,7 +183,12 @@ permalink: /publications/
       In <em>IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</em>, pp. 481-491, 2024.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2023">
     <h3>2023</h3>
+    <ol class="paper-list" start="21">
     <li data-tags="CCF Rank-B,Journal paper">
       Minjun Deng, Kai Zhang, <strong><u>Pengfei Wu</u></strong>, Mi Wen, and Jianting Ning
       DCDPI: Dynamic and Continuous Deep Packet Inspection in Secure Outsourced Middleboxes.
@@ -204,7 +219,12 @@ permalink: /publications/
       In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 20, no. 5, pp. 4101-4117, 2023.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2022">
     <h3>2022</h3>
+    <ol class="paper-list" start="26">
     <li data-tags="CCF Rank-A,Journal paper">
       <strong><u>Pengfei Wu</u></strong>, Qi Li, Jianting Ning, Xinyi Huang, and Wei Wu. 
       Differentially Oblivious Data Analysis with Intel SGX: Design, Optimization, and Evaluation.
@@ -235,7 +255,12 @@ permalink: /publications/
       In <em>计算机学报</em>, vol. 45, no. 4, pp. 669-701, 2022.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2021">
     <h3>2021</h3>
+    <ol class="paper-list" start="31">
     <li data-tags="CCF Rank-A,Journal paper">
       Jianfei Sun, Hu Xiong, Xuyun Nie, Yinghui Zhang, and <strong><u>Pengfei Wu</u></strong>.
       On the Security of Privacy-Preserving Attribute-Based Keyword Search in Shared Multi-owner Setting.
@@ -260,7 +285,12 @@ permalink: /publications/
       In <em>软件学报</em>, vol. 32, no. 1, pp. 137-166, 2021.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2020">
     <h3>2020</h3>
+    <ol class="paper-list" start="35">
     <li data-tags="CCF Rank-B,Journal paper">
       Yangguang Tian, Yingjiu Li, Robert H. Deng, Nan Li, <strong><u>Pengfei Wu</u></strong>, and Anyi Liu.
       A New Framework for Privacy-Preserving Biometric-Based Remote User Authentication.
@@ -279,7 +309,12 @@ permalink: /publications/
       In <em>IEEE International Conference on Cloud Computing (Cloud)</em>, pp. 600-608, 2020.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2019">
     <h3>2019</h3>
+    <ol class="paper-list" start="38">
     <li data-tags="CCF Rank-C,Conference paper">
       <strong><u>Pengfei Wu</u></strong>, Qingni Shen, Robert H. Deng, Ximeng Liu, Yinghui Zhang, and Zhonghai Wu. 
       ObliDC: An SGX-based oblivious distributed computing framework with formal proof. 
@@ -292,14 +327,20 @@ permalink: /publications/
       In <em>IEEE Transactions on Industrial Informatics (TII)</em>, vol. 15, no. 9, pp. 5099-5108, 2019.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    </ol>
+  </div>
+
+  <div class="paper-year-group" data-year="2018">
     <h3>2018</h3>
+    <ol class="paper-list" start="40">
     <li data-tags="CCF Rank-A (Chinese),Journal paper">
       <strong><u>Pengfei Wu</u></strong>, Qingni Shen, Jia Qin, Wenjun Qian, Cong Li, and Zhonghai Wu.
       不经意随机访问机研究综述.
       In <em>软件学报</em>, vol. 29, no. 9, pp. 2753-2777, 2018.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
-  </ol>
+    </ol>
+  </div>
 </section>
 
 <script>
@@ -316,6 +357,7 @@ permalink: /publications/
 
     var counts = new Map();
     var paperTags = new Map();
+    var yearGroups = Array.from(section.querySelectorAll('.paper-year-group'));
     filters.replaceChildren();
 
     function makeButton(tag, count) {
@@ -356,6 +398,18 @@ permalink: /publications/
         paper.hidden = !matches;
         if (matches) visible += 1;
       });
+      // A year is visible whenever at least one of its papers matches the current filter.
+      // Use each paper's hidden flag, not computed visibility while its year may be hidden.
+      var nextNumber = 1;
+      yearGroups.forEach(function (group) {
+        var groupPapers = Array.from(group.querySelectorAll('.paper-list > li'));
+        var count = groupPapers.filter(function (paper) { return !paper.hidden; }).length;
+        group.hidden = count === 0;
+        var list = group.querySelector('.paper-list');
+        if (list) list.start = nextNumber;
+        nextNumber += count;
+      });
+
       section.querySelectorAll('[data-paper-tag]').forEach(function (button) {
         button.setAttribute('aria-pressed', String(button.dataset.paperTag === tag));
       });
