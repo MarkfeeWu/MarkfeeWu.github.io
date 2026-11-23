@@ -18,7 +18,8 @@ title: Pengfei Wu # the main title
 
 tagline: >-
   Assistant Professor with Peking University<br>
-  <a href="mailto:example@domain.com" style="font-style: normal;">wupf@pku.edu.cn</a>
+  <br></br>
+  E-mail: <a href="mailto:wupf@pku.edu.cn" style="font-style: normal;">wupf@pku.edu.cn</a>
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
