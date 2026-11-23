@@ -230,12 +230,6 @@ permalink: /publications/
       In <em>计算机学报</em>, vol. 45, no. 4, pp. 669-701, 2022.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
-    <li data-tags="CCF Rank-A (Chinese),Journal paper">
-      Wenjun Qian, Qingni Shen, <strong><u>Pengfei Wu</u></strong>, Chuntao Dong, and Zhonghai Wu.
-      大数据计算环境下的隐私保护技术研究进展.
-      In <em>计算机学报</em>, vol. 45, no. 4, pp. 669-701, 2022.
-      <div class="paper-tags" role="group" aria-label="paper-label"></div>
-    </li>
     <li data-tags="CCF Rank-A,Journal paper">
       Jianfei Sun, Hu Xiong, Xuyun Nie, Yinghui Zhang, and <strong><u>Pengfei Wu</u></strong>.
       On the Security of Privacy-Preserving Attribute-Based Keyword Search in Shared Multi-owner Setting.
