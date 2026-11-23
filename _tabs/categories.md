@@ -161,7 +161,37 @@ permalink: /publications/
     <li data-tags="CCF Rank-C,Journal paper">
       Fucai Zhou, Qiyu Wu, <strong><u>Pengfei Wu</u></strong>, Jian Xu, and Da Feng.
       Privacy-preserving and verifiable data aggregation for Internet of Vehicles.
-      In <em>Computer Communications</em>, vol. 218, pp. 198-208, 2025.
+      In <em>Computer Communications</em>, vol. 218, pp. 198-208, 2024.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      <strong><u>Pengfei Wu</u></strong>, Jianfei Sun, Guomin Yang, and Robert H. Deng. 
+      Towards Privacy-aware IoT Communications: Delegable, Revocable, and Efficient.
+      In <em>IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</em>, pp. 481-491, 2024.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-B,Journal paper">
+      Minjun Deng, Kai Zhang, <strong><u>Pengfei Wu</u></strong>, Mi Wen, and Jianting Ning
+      DCDPI: Dynamic and Continuous Deep Packet Inspection in Secure Outsourced Middleboxes.
+      In <em>IEEE Transactions on Cloud Computing (TCC)</em>, vol. 11, no. 4, pp. 3510-3524, 2023.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-B,Conference paper">
+      Feng Li, Jianfeng Ma, Yinbin Miao, <strong><u>Pengfei Wu</u></strong>, and Xiangfu Song. 
+      Beyond Volume Pattern: Storage-Efficient Boolean Searchable Symmetric Encryption with Suppressed Leakage
+      In <em>European Symposium on Research in Computer Security (ESORICS)</em>, pp. 126-146, 2023.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Wu Luo, Xinyi Huang, and Debiao He. 
+      Exploring Dynamic Task Loading in SGX-based Distributed Computing
+      In <em>IEEE Transactions on Services Computing (TSC)</em>, vol. 16, no. 1, pp. 288-301, 2023.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Journal paper">
+      Chuntao Dong, Qingni Shen, Xuhua Ding, Daoqing Yu, Wu Luo, <strong><u>Pengfei Wu</u></strong>, and Zhonghai Wu.
+      T-Counter: Trustworthy and Efficient CPU Resource Measurement using SGX in the Cloud.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 20, no. 1, pp. 867-885, 2023.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
   </ol>
