@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Selected Publications
+title: Publications
 icon: fas fa-stream
 order: 1
 permalink: /publications/
