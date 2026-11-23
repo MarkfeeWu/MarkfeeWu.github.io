@@ -48,6 +48,7 @@ permalink: /publications/
   <ol class="paper-list">
     <!-- Add tags to each li, separated by commas. Chinese tag names also work. -->
     <!-- Add another li inside this ol for each additional paper. -->
+    <h3>2026</h3>
     <li data-tags="CCF Rank-A,Journal paper">
       Changsong Jiang, Xiaosong Zhang, Guomin Yang, Zhongming Wang, Meng Hao,
       <strong><u>Pengfei Wu</u></strong>.
@@ -92,6 +93,7 @@ permalink: /publications/
       In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    <h3>2025</h3>
      <li data-tags="CCF Rank-A,Journal paper">
       Lisha Yao, Jian Weng, <strong><u>Pengfei Wu</u></strong>, Shixin Chen, Jianfei Sun, Guomin Yang, and Robert H. Deng.
       Breaking the Trilemma: Toward Efficient, Privacy-Preserving, and Forward-Secure Data Sharing in the Post-Quantum Era.
