@@ -68,6 +68,18 @@ permalink: /publications/
       In <em>European Symposium on Research in Computer Security (ESORICS)</em>, pp. 460-481, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
+    <li data-tags="CCF Rank-A,Journal paper">
+      Feng Li, Chengyan Ma, Xiaoguo Li, <strong><u>Pengfei Wu</u></strong>, Lisha Yao, Jianting Ning, Guomin Yang, Jianfeng Ma, and Robert H. Deng.
+      Corruption is Futile: Hardware-Assisted Multi-User Searchable Encryption.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+    <li data-tags="CCF Rank-C,Conference paper">
+      <strong><u>Pengfei Wu</u></strong>, Yuxian Li, Lisha Yao, Xiaoguo Li, Guomin Yang, Tao Xiang, and Robert H. Deng.
+      Understanding the Security of Cloud Storage Services: A Case Study and UC-Secure Design.
+      In <em>Australasian Conference on Information Security and Privacy (ACISP)</em>, pp. 494-526, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
   </ol>
 </section>
 
