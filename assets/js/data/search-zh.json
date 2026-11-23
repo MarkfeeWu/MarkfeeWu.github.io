@@ -1,7 +1,7 @@
 ---
 layout: null
 permalink: /assets/js/data/search-zh.json
-lang: zh-CN
+lang: en
 swcache: true
 ---
-{% include bilingual-search-index.html lang='zh-CN' %}
+{% include bilingual-search-index.html lang='en' %}

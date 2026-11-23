@@ -24,7 +24,7 @@
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '{% if include.lang == 'zh-CN' %}{{ '/assets/js/data/search-zh.json' | relative_url }}{% else %}{{ '/assets/js/data/search.json' | relative_url }}{% endif %}',
+      json: '{{ '/assets/js/data/search.json' | relative_url }}',
       searchResultTemplate: '{{ result_elem | strip_newlines }}',
       noResultsText: '{{ not_found }}',
       templateMiddleware: function(prop, value, template) {

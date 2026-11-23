@@ -2,14 +2,11 @@
 {%- assign bilingual_ui = site.data.bilingual[bilingual_lang] | default: site.data.bilingual.en -%}
 {%- assign language_prefix = '' -%}
 {%- assign language_home = '/' -%}
-{%- if bilingual_lang == 'zh-CN' -%}
-  {%- assign language_prefix = '/zh' -%}
-  {%- assign language_home = '/zh/' -%}
-{%- endif -%}
+{%- if page.url == '/zh/' -%}{%- assign language_home = '/zh/' -%}{%- endif -%}
 {%- assign localized_posts = '' | split: '' -%}
 {%- for bilingual_post in site.posts -%}
   {%- assign bilingual_post_lang = bilingual_post.lang | default: site.lang | default: 'en' -%}
-  {%- if bilingual_post_lang == bilingual_lang -%}
+  {%- if bilingual_post_lang == 'en' -%}
     {%- assign localized_posts = localized_posts | push: bilingual_post -%}
   {%- endif -%}
 {%- endfor -%}

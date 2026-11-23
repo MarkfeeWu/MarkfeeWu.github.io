@@ -1,9 +1,12 @@
 ---
-layout: archives
-title: 博客
-lang: zh-CN
-bilingual_tab: true
+layout: null
 permalink: /zh/blogs/
-english_url: /blogs/
-translation_key: blogs
+sitemap: false
 ---
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url={{ '/blogs/' | relative_url }}">
+<link rel="canonical" href="{{ '/blogs/' | absolute_url }}">
+<title>Blogs</title>
+<script>location.replace({{ '/blogs/' | relative_url | jsonify }} + location.search + location.hash);</script>
+</head><body><a href="{{ '/blogs/' | relative_url }}">Continue to Blogs</a></body></html>
