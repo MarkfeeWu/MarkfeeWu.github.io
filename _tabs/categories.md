@@ -59,7 +59,7 @@ permalink: /publications/
     <li data-tags="CCF Rank-A,Journal paper">
       Jianting Ning, <strong><u>Pengfei Wu</u></strong>, Lisha Yao, Wu Luo, Guomin Yang, Feng Li, Yuxian Li, Xinyi Huang, and Robert H. Deng.
       Noisy Functional Encryption Revisited: New Constructions from LWE for Differential Privacy. 
-      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, 2026.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 23, no. 6, pp. 12826-12841, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
     <li data-tags="CCF Rank-B,Conference paper">
@@ -71,13 +71,31 @@ permalink: /publications/
     <li data-tags="CCF Rank-A,Journal paper">
       Feng Li, Chengyan Ma, Xiaoguo Li, <strong><u>Pengfei Wu</u></strong>, Lisha Yao, Jianting Ning, Guomin Yang, Jianfeng Ma, and Robert H. Deng.
       Corruption is Futile: Hardware-Assisted Multi-User Searchable Encryption.
-      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, 2026.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 23, no. 6, pp. 12699-12716, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
     <li data-tags="CCF Rank-C,Conference paper">
       <strong><u>Pengfei Wu</u></strong>, Yuxian Li, Lisha Yao, Xiaoguo Li, Guomin Yang, Tao Xiang, and Robert H. Deng.
       Understanding the Security of Cloud Storage Services: A Case Study and UC-Secure Design.
       In <em>Australasian Conference on Information Security and Privacy (ACISP)</em>, pp. 494-526, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+     <li data-tags="CCF Rank-A,Journal paper">
+      Jiawen Wu, Yifan Xu, Kai Zhang, <strong><u>Pengfei Wu</u></strong>, Yuling Chen, and Jianting Ning. 
+      AuthGraph: Privacy-Preserving and Authorized Multi-Client Graph Search with Trusted Hardware.
+      In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 23, no. 2, pp. 2242-2256, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+     <li data-tags="CCF Rank-A,Conference paper">
+      Yang Yang, Guomin Yang, Yingjiu Li, <strong><u>Pengfei Wu</u></strong>, Rui Shi, Minming Huang, Jian Weng, Hwee Hwa Pang, and Robert H. Deng.
+      PriSrv+: Privacy and Usability-Enhanced Wireless Service Discovery with Fast and Expressive Matchmaking Encryption.
+      In <em>Network and Distributed System Security Symposium (NDSS)</em>, 2026.
+      <div class="paper-tags" role="group" aria-label="paper-label"></div>
+    </li>
+     <li data-tags="CCF Rank-A,Journal paper">
+      Lisha Yao, Jian Weng, Pengfei Wu, Shixin Chen, Jianfei Sun, Guomin Yang, and Robert H. Deng.
+      Breaking the Trilemma: Toward Efficient, Privacy-Preserving, and Forward-Secure Data Sharing in the Post-Quantum Era.
+      In <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, vol. 20, pp. 13370-13385, 2026.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
   </ol>
