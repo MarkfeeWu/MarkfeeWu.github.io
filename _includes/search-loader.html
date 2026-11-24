@@ -22,6 +22,7 @@
   {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
   document.addEventListener('DOMContentLoaded', () => {
     SimpleJekyllSearch({
+      limit: 200,
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
       json: '{% if include.lang == 'zh-CN' %}{{ '/assets/js/data/search-zh.json' | relative_url }}{% else %}{{ '/assets/js/data/search.json' | relative_url }}{% endif %}',
