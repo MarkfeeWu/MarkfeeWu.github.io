@@ -107,7 +107,7 @@ permalink: /publications/
     </li>
     <li data-tags="CCF Rank-A,Journal paper">
       <strong><u>Pengfei Wu</u></strong>, Jianting Ning, Xinyi Huang, Rongmao Chen, Kai Zhang, and Kaitai Liang. 
-      Privacy-Preserving Deep Packet Inspection with Dual Double-masking Obfuscated Rule Generation.
+      PrivBox: Privacy-Preserving Deep Packet Inspection with Dual Double-masking Obfuscated Rule Generation.
       In <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>, vol. 22, vol. 5, pp. 4954-4970, 2025.
       <div class="paper-tags" role="group" aria-label="paper-label"></div>
     </li>
